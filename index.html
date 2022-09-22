@@ -14,28 +14,33 @@
   <div class="container row">
     <div class="card">
       <h1 class="title">Details Here</h1>
-      <form class="submit-form">
+      <form class="submit-form" id="form">
         <div class="form-control">
           <label for="username">User Name</label>
           <input type="text" id="username" name="username" placeholder="Enter your name"/>
+          <small>User Name is Required</small>
         </div>
         <div class="form-control">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Enter Your email"/>
+          <input type="text" id="email" name="email" placeholder="Enter Your email"/>
+          <small>Email is Required</small>
         </div>
         <div class="form-control">
           <label for="mobile">Mobile Number</label>
           <input type="number" id="mobile" name="mobile" placeholder="Enter your Mobile number"/>
+          <small>Mobile Number is Required</small>
         </div>
         <div class="form-control">
-          <label for="password">Password</label>
-          <input type="password" id="password" name="password" placeholder="Enter your password"/>
+          <label for="new-password">Password</label>
+          <input type="password" id="new-password" name="new-password" placeholder="Enter your password"/>
+          <small>Password is Required</small>
         </div>
         <div class="form-control">
           <label for="confirm-password">Confirm Password</label>
           <input type="text" id="confirm-password" name="confirm-password" placeholder="Enter the Confirm Password"/>
+          <small>Confirm Password is Required</small>
         </div>
-        <button class="btn btn-light btn-block">Submit</button>
+        <button class="btn btn-light btn-block" type="submit">Submit</button>
       </form> 
     </div>
   </div>
